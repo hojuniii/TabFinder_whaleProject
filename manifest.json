@@ -1,0 +1,39 @@
+{
+    "name": "TabFinder",
+    "description" : "많은 탭들 중, 원하는 탭을 찾아드려요",
+    "version": "1.0",
+    "sidebar_action": {
+        "default_page" : "./index/index.html",
+        "default_icon": { 
+            "16": "icon/icon.png",
+            "32": "icon/icon.png"
+        },
+        "default_title": "TabFinder",
+        "use_navigation_bar": false,
+        "mobile_user_agent": false 
+    },
+    "background": {
+        "scripts": ["/js/background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "16": "icon/icon.png",
+        "48": "icon/icon.png",
+        "128": "icon/icon128.png"
+      },
+    "permissions": [
+        "activeTab",
+        "<all_urls>",
+        "tabs"
+    ],
+    "manifest_version": 2,
+    "commands": {
+        "toggle-feature": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+Space",
+            "mac": "Command+Shift+Space"
+           },
+          "description": "onoff"
+        }
+    }
+}

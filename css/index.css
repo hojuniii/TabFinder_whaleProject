@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Jua&display=swap');
+body{
+    font-family: 'Jua', sans-serif;
+    font-size:18px;
+    -webkit-user-drag: none;
+}
+
+#appTitle{
+    font-size : 30px;
+    margin-top:20px;
+    margin-left:20px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color:#34495E;
+    margin-bottom: 1em;
+} 
+
+#titleIcon{
+    width: 64px;
+    height: 64px;
+}
+
+.row {
+    display: flex;
+    margin-right: 0px !important;
+    margin-left: 0px !important;;
+}
+
+#box{
+    width:100%;
+    font-family: 'Jua', sans-serif;
+    display: flex;
+    font-size: 18px;
+}
+
+#favIcon{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+#keyword{
+    width: 85%;
+    height: 35px;
+    color: #495057;
+    display: inline-block;
+}
+
+#searchBtn{
+    width: 14%;
+    height: 35px;
+    float: right;
+    font-family: 'Jua', sans-serif;
+    color: #34495E;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.tab{
+    margin-left:10px;
+}
+
+.serchbox{
+    text-align: center;
+    margin: 10px 10px 30px 10px;
+}
+
+.tabTitle{
+    width:90%;
+    display:inline-block;
+    font-size:24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#delIcon{
+    width:14px !important;
+    height:14px !important;
+}
+#delIcon:hover{
+    opacity: 0.5;
+}
+
+.mark, mark{
+    padding:0 !important;
+    background-color:#bedefd !important;
+    color: black;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.card{
+    cursor:pointer;
+    border-radius: 10px 10px 10px 10px !important;
+}
+
+/* .card:hover{
+    opacity:0.7;
+} */
+
+.card-header{
+    padding:0.5rem 0.5rem;
+    border-radius: 10px 10px 0px 0px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.curTab{
+    border-color: #bedefd !important;
+    border-width: 3px;
+}
