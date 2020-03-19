@@ -1,0 +1,13 @@
+jquery.js
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+
+
+makk.js
+/*!***************************************************
+* mark.js v9.0.0
+* https://markjs.io/
+* Copyright (c) 2014?2018, Julian Kuhnel
+* Released under the MIT license https://git.io/vwTVl
+*****************************************************/
