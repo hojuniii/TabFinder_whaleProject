@@ -1,5 +1,4 @@
 # TabFinder_whaleProject
-## Copyright 2019. Nam Ho Jun, Lee Min Jun, Park Young Chang All rights reserved.
 
 
 ![1](./TabFinder_info/슬라이드1.PNG)
